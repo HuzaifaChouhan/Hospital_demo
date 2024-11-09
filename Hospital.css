@@ -1,0 +1,135 @@
+/* Blue #007BFF
+  Green #28a745 */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.title{
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #007BFF;
+    padding: 20px 0;
+    color: white;
+}
+
+header h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+}
+
+.first_photo{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+.first_photo img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 200px;
+}
+
+.info{
+    width: 100%;
+    height: 73px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007BFF;
+}
+.info h1{
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.more_info{
+    width: 100%;
+    height: 550px;
+    display: flex;
+}
+
+.left_side{
+    width: 70%;
+    height: 100%;
+    padding-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.circle{
+    border-radius: 50%;
+    width: 200px;
+    height:200px;
+    margin: 30px;
+}
+
+.circle img{
+    width: 200px;
+    height: 200px;
+    border-radius:50% ;
+    position: relative;
+}
+.circle:hover{
+    cursor: grab;
+}
+
+.name{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.name a{
+    font-family: Arial, sans-serif;
+}
+
+
+.right_side{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right_side a button{
+    border-radius: 30px 30px 30px 30px;
+    height: 30px;
+    width: 200px;
+    margin: 30px;
+    font-weight: bolder;
+    font-family: Arial,sans-serif;
+    box-shadow: 2px 2px 5px;
+}
